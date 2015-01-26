@@ -1,0 +1,52 @@
+.content {
+    text-align: center;
+    width: 100%;
+}
+body {
+    overflow: hidden;
+}
+.content .logo {
+    max-width: 100%;
+    height: auto;
+    width: 10em;
+}
+.nav {
+    background-color: #FF5252;
+}
+.popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99999;
+    display: none;
+}
+.login {
+    float: left;
+    color: #2196F3 !important;
+    background-color: #fff;
+    box-shadow: none;
+    margin-right: 0px !important;
+}
+.login:active, .login:hover {
+    background-color: #fff !important;
+    box-shadow: none;
+}
+.card-action {
+    text-align: center !important;
+}
+.page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 999999;
+}
+
+.page{
+    display: none;
+}
